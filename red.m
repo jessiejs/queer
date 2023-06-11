@@ -7,8 +7,6 @@
 :- type request.
 :- type response.
 
-:- pred handle_get(request::in, response::in, io::di, io::uo) is det.
-
 :- implementation.
 
 :- import_module list.
